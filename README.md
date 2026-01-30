@@ -2,7 +2,14 @@
 
 This directory implements EPSVec: *E*fficient and *P*rivate *S*ynthetic data generation via dataset *Vec*tors. 
 
-![main_fig](figs/PSG_Fig1_Revised.png)
+<p align="center">
+  <img src="figs/PSG_Fig1_Revised.png" alt="main_fig" width="500">
+</p>
+
+### Features
+
+- **Scales like standard decoding:** generate arbitrarily many samples and long sequences with inference efficiency comparable to standard generation.
+- **Effective privacy in low-data settings:** strong distributional fidelity gains with especially large improvements when private data are scarce.
 
 ## Experiments
 To run our code, first create a new conda env and install the requirements:
