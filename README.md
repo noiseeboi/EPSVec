@@ -1,5 +1,9 @@
 # EPSVec: Efficient and Private Synthetic Data Generation via Dataset Vectors
 
+This directory implements EPSVec: *E*fficient and *P*rivate *S*ynthetic data generation via dataset *Vec*tors. 
+
+![main_fig](figs/PSG_Fig1_Revised.png)
+
 ## Experiments
 To run our code, first create a new conda env and install the requirements:
 
