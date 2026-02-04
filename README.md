@@ -3,7 +3,7 @@
 This directory implements EPSVec: *E*fficient and *P*rivate *S*ynthetic data generation via dataset *Vec*tors. 
 
 <p align="center">
-  <img src="figs/PSG_Fig1_Revised.png" alt="main_fig" width="500">
+  <img src="figs/PSG_Fig1_1Col.png" alt="main_fig" width="500">
 </p>
 
 ### Features
@@ -32,7 +32,7 @@ The generated data can be found under the ```results/``` directory. The next ste
 python generate_steer_vecs.py --dataset=imdb --neg_data_count=1000 --bs=1 --clip=True --n_fixed_shots=2 --neg_data_fixed_shots_epsilon=0.1
 ```
 
-The above code extract the vectors and write them under ```steer_vectors/``` directory.
+The above code extracts the vectors and writes them under ```steer_vectors/``` directory.
 
 Finally, we can use the generated vectors to run EPSVec with ```epsilon = 5.0```:
 
