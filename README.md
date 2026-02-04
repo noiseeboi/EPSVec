@@ -3,7 +3,7 @@
 This directory implements EPSVec: *E*fficient and *P*rivate *S*ynthetic data generation via dataset *Vec*tors. 
 
 <p align="center">
-  <img src="figs/PSG_Fig1_1Col.png" alt="main_fig" width="500">
+  <img src="figs/PSG_Fig1_1Col.png" alt="main_fig" width="1000">
 </p>
 
 ### Features
